@@ -1,0 +1,1 @@
+Copy your own portrait into this folder and rename it profile-photo.jpg. See README.txt for steps.

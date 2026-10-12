@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student portfolio of Joseph Eyre T. Entize, an Information Technology student.">
+  <title>Joseph Eyre T. Entize | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home"><span class="brand-mark">JE</span><span>Joseph <b>Entize</b></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> BSIT STUDENT · PERSONAL PORTFOLIO</p>
+        <h1>Learning today.<br><span>Building for tomorrow.</span></h1>
+        <p class="hero-text">Hi, I'm <strong>Joseph Eyre T. Entize</strong>, an Information Technology student learning through academic projects, practice, and hands-on exploration.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="text-link" href="#about">More about me <span>→</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Curious mind. Growing skills. One step at a time.</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-frame">
+          <!-- Add your own photo: save it as images/profile-photo.jpg. See README.txt. -->
+          <img class="profile-photo" src="images/Ma face.jpg" alt="Portrait of Joseph Eyre T. Entize" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder"><span class="placeholder-icon">＋</span><b>Add your photo</b><small>Save your image as<br>images/profile-photo.jpg</small></div>
+          <div class="photo-label"><span class="status-dot"></span> STUDENT PORTFOLIO</div>
+        </div>
+        <div class="floating-tag tag-top"><span>✳</span> Learning by doing</div>
+        <div class="floating-tag tag-bottom"><span class="tag-check">✓</span> Projects & progress</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT ME</p><h2>Technology is a journey,<br><span>and I'm getting started.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-intro">
+          <!-- EDIT THIS: Replace these paragraphs with a true description in your own words. -->
+          <p>I'm a Bachelor of Science in Information Technology student interested in how websites, software, and digital systems are designed and built.</p>
+          <p>Through academic activities and practice projects, I'm working to improve my technical knowledge, problem-solving, and ability to learn new tools. I want to keep developing useful skills and become a capable IT professional.</p>
+        </div>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-icon">⌁</span><div><b>Current focus</b><small>IT coursework and project practice</small></div></div>
+          <div class="fact"><span class="fact-icon">⌂</span><div><b>Learning approach</b><small>Practice, research, and iteration</small></div></div>
+          <div class="fact"><span class="fact-icon">↗</span><div><b>Next goal</b><small>Keep building and improving my portfolio</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / SKILLS I'M DEVELOPING</p><h2>Learning in progress<span>.</span></h2><p class="section-subtitle">The skills and tools listed here reflect my current learning journey and hands-on experience as an IT student. I am continuously learning and improving my abilities through projects and practice.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><div class="skill-symbol">◫</div><h3>Web development</h3><p>Learning how websites are structured, styled, and made interactive.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><span class="skill-number">02</span><div class="skill-symbol">⌘</div><h3>Programming & tools</h3><p>Academic and practice experience with programming tools and web frameworks.</p><div class="skill-tags"><span>Python</span><span>Django</span><span>VS Code</span></div></article>
+        <article class="skill-card"><span class="skill-number">03</span><div class="skill-symbol">▤</div><h3>IT foundations</h3><p>Studying concepts related to data, networking, and information security.</p><div class="skill-tags"><span>Databases</span><span>Networking</span><span>Security basics</span></div></article>
+      </div>
+      <p class="small-reminder"></p>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading project-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects & practice<span>.</span></h2></div><p class="section-subtitle">A look at two projects I worked on. The screenshots below show the project interfaces and gameplay.</p></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-info"><div class="project-meta"><span>GROUP GAME PROJECT</span><span>01</span></div><h3>Maze Escape: The Forgotten Labyrinth</h3><p>A 2D puzzle-adventure game featuring maze exploration, different environments, in-game challenges, and an escape objective.</p><div class="project-tags"><span>2D Game</span><span>Gameplay</span><span>Puzzle Adventure</span></div><p class="project-contribution"><b>My contribution:</b> I contributed to the development of Maze Escape: The Forgotten Labyrinth, a 2D puzzle-adventure survival game, by participating in the planning, design, and development process. I also collaborated with my team to help complete and present the project.</p></div>
+          <div class="project-slider" data-slider="maze-gallery" aria-label="Maze Escape screenshots">
+            <div class="project-gallery">
+              <figure><img src="images/maze/main-menu.png" alt="Maze Escape main menu"><figcaption>Main Menu</figcaption></figure>
+              <figure><img src="images/maze/gameplay.png" alt="Maze Escape gameplay view"><figcaption>Gameplay</figcaption></figure>
+              <figure><img src="images/maze/special-feature.png" alt="Maze Escape Frozen Snowland level"><figcaption>Special Feature / Level</figcaption></figure>
+              <figure><img src="images/maze/ending.png" alt="Maze Escape ending sequence"><figcaption>Ending Sequence</figcaption></figure>
+              <figure><img src="images/maze/completed-level.png" alt="Maze Escape level completion screen"><figcaption>Completed Level</figcaption></figure>
+            </div>
+            <div class="slider-controls"><button type="button" class="slider-btn" data-direction="prev" aria-label="Previous Maze Escape screenshot">‹</button><span class="slider-count" aria-live="polite">1 / 5</span><button type="button" class="slider-btn" data-direction="next" aria-label="Next Maze Escape screenshot">›</button></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-info"><div class="project-meta"><span>WEB APPLICATION PROJECT</span><span>02</span></div><h3>LibAI</h3><p>An AI-powered smart library concept with RFID-based inventory management. The screenshots show the home page, student dashboard, catalog/borrowing interface, borrowed-books area, and profile page.</p><div class="project-tags"><span>Web Application</span><span>Smart Library</span><span>Book Catalog</span></div><p class="project-contribution"><b>My contribution:</b> EI contributed to the development of LibAI by collaborating with my team on the project's features and interface. I also participated in the development process and helped prepare the project for its presentation.</p></div>
+          <div class="project-slider" data-slider="libai-gallery" aria-label="LibAI screenshots">
+            <div class="project-gallery">
+              <figure><img src="images/libai/home-page.jpg" alt="LibAI home page"><figcaption>Home Page</figcaption></figure>
+              <figure><img src="images/libai/main-interface.jpg" alt="LibAI main interface"><figcaption>Main Interface</figcaption></figure>
+              <figure><img src="images/libai/borrowing-page.jpg" alt="LibAI borrowing page"><figcaption>Borrowing Page</figcaption></figure>
+              <figure><img src="images/libai/borrowed-books-page.jpg" alt="LibAI borrowed books page"><figcaption>Borrowed Books</figcaption></figure>
+              <figure><img src="images/libai/profile-page-redacted.jpg" alt="LibAI profile page with personal details obscured"><figcaption>Profile Page (private details hidden)</figcaption></figure>
+            </div>
+            <div class="slider-controls"><button type="button" class="slider-btn" data-direction="prev" aria-label="Previous LibAI screenshot">‹</button><span class="slider-count" aria-live="polite">1 / 5</span><button type="button" class="slider-btn" data-direction="next" aria-label="Next LibAI screenshot">›</button></div>
+          </div>
+        </article>
+      </div>
+      <p class="project-reminder"></p>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner"><div><p class="eyebrow">04 / CONTACT</p><h2>Have a project or idea?<br><span>Let's connect.</span></h2><p class="contact-copy">I'm open to learning opportunities, collaboration, and constructive feedback.</p></div><div class="contact-panel"><span class="contact-icon">↗</span><h3>Get in touch</h3><p>ntzjoseph@gmail.com</p><a class="button button-primary" href="mailto:YOUR_EMAIL@example.com">Email me <span>↗</span></a><small>Current placeholder: ntzjoseph@gmail.com</small></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">JE</span><span>Joseph <b>Entize</b></span></a><p>Designed to learn. Built to grow.</p><span>© <span id="year">2026</span> Joseph Eyre T. Entize</span></footer>
+</body>
+</html>
